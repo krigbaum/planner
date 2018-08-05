@@ -22,11 +22,9 @@ JSON | Comments
 **"wotdReloadInterval":** *12,* | Frequency, in **HOURS**, with which Word of the Day data is refreshed.
 **"cssDirectory":** *"./css/planner.css",* | Directory where planner.css is stored.
 **"photosDir":** *"./photos",* | Directory where background photos are stored.
-**"photosReloadInterval":** *3,* | Frequeny, in **MINUTES**, in which the background photo is changed.
+**"photoReloadInterval":** *3,* | Frequeny, in **MINUTES**, in which the background photo is changed.
 **"timeCheckInterval":** *3,* | Currently unused.  DO NOT REMOVE.
 **"HTMLFile":** *"planner.html",* | Path to the *planner.html* file.
-**"photoDir":** *"photos",* | Comment
-**"photoReloadInterval":** *3,* | Comment
 **"mwRSS":** *"https://www.merriam-webster.com/wotd/feed/rss2",* | Merriam-Webster Word of the Day URL.
 **"mwURL":** *"https://www.dictionaryapi.com/api/v1/references/collegiate/xml/",* | Merriam-Webster Collegiate Dictionary URL
 **"mwKEY":** *""* | The key issued to you by Merriam-Webster for use of their API.
