@@ -1,9 +1,9 @@
 {
     "DEBUG": true,
 
-    "darkSkyKey": "17a2013be8c8b9f5c086af117f2e57f7",
-    "latitude": "40.47780682531368",
-    "longitude": "-86.93875375799722",
+    "darkSkyKey": "",
+    "latitude": "",
+    "longitude": "",
     "excludes": "exclude=minutely,hourly,flags",
 
     "weatherURL": "https://api.darksky.net/forecast/",
@@ -25,7 +25,7 @@
 
     "mwRSS": "https://www.merriam-webster.com/wotd/feed/rss2",
     "mwURL": "https://www.dictionaryapi.com/api/v1/references/collegiate/xml/",
-    "mwKEY": "6becb26a-c8cc-4b72-813f-55849be7b7a5",
+    "mwKEY": "",
 
     "maxPlannerLog": 1,
     "maxWeatherLog": 2,
