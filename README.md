@@ -1,8 +1,8 @@
 # planner
-Planner is a Go application designed to run on a Raspberry Pi in a wall display for family planning convenience.  The Planner display current weather conditions at your location, as well as forecast for the present day and two days into the future.  It also, displays the Merriam-Webster Word of the Day with pronounciation, part of speech, and definitions, along with your Google calender.  The background that is displayed is of a random selection of your personal photos that you copy into a defined directory.  You may also define the update frequency of all the data.
+Planner is a Go application designed to run on a Raspberry Pi in a wall display for family planning convenience.  The Planner display current weather conditions at your location, as well as forecast for the present day and two days into the future.  It also, displays the Merriam-Webster Word of the Day with pronounciation, part of speech, and definitions, along with your next 10 events in Google Calender.  The background that is displayed is of a random selection of your personal photos that you copy into a defined directory.  You may also define the update frequency of all the data.
 
 ## A note concerning background photos:
-The most effective photos to chose for use a backgrounds in the Planner are ones that are oriented in the same direction as your display screen.  The display prints in white so photos with a contrasting background are most effective.  Also, the google calendar dispalys at the bottom right of the screen, so anything in that area will be blocked.
+The most effective photos to chose for use a backgrounds in the Planner are ones that are oriented in the same direction as your display screen.  The display prints in white so photos with a contrasting background are most effective.
 
 ## config.json
 json is an easy format for computers to read data.  Small errors can break it, however, so before editing backup the json file and refer to an introductory json syntax reference.  Also, **ALL** lines in the file must remain in place or the planner will break.
@@ -27,6 +27,6 @@ JSON | Comments
 **"HTMLFile":** *"planner.html",* | Path to the *planner.html* file.
 **"photoDir":** *"photos",* | Comment
 **"photoReloadInterval":** *3,* | Comment
-**"mwRSS":** *"https://www.merriam-webster.com/wotd/feed/rss2",* | Comment
-**"mwURL":** *"https://www.dictionaryapi.com/api/v1/references/collegiate/xml/",* | Comment
-**"mwKEY":** *""* | Comment
+**"mwRSS":** *"https://www.merriam-webster.com/wotd/feed/rss2",* | Merriam-Webster Word of the Day URL.
+**"mwURL":** *"https://www.dictionaryapi.com/api/v1/references/collegiate/xml/",* | Merriam-Webster Collegiate Dictionary URL
+**"mwKEY":** *""* | The key issued to you by Merriam-Webster for use of their API.
