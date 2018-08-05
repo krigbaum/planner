@@ -1,0 +1,34 @@
+{
+    "DEBUG": true,
+
+    "darkSkyKey": "17a2013be8c8b9f5c086af117f2e57f7",
+    "latitude": "40.47780682531368",
+    "longitude": "-86.93875375799722",
+    "excludes": "exclude=minutely,hourly,flags",
+
+    "weatherURL": "https://api.darksky.net/forecast/",
+    "weatherReloadInterval": 1,
+
+    "qotdURL": "https://www.quotesdaddy.com/feed",
+    "qotdReloadInterval": 4,
+
+    "wotdURL": "https://www.merriam-webster.com/word-of-the-day",
+    "wotdReloadInterval": 12,
+
+    "photosDir": "./photos",
+    "cssDirectory": "./css/planner.css",
+    "photoReloadInterval": 5,
+
+    "timeCheckInterval": 3,
+
+    "HTMLFile": "planner.html",
+
+    "mwRSS": "https://www.merriam-webster.com/wotd/feed/rss2",
+    "mwURL": "https://www.dictionaryapi.com/api/v1/references/collegiate/xml/",
+    "mwKEY": "6becb26a-c8cc-4b72-813f-55849be7b7a5",
+
+    "maxPlannerLog": 1,
+    "maxWeatherLog": 2,
+    "maxWOTDLog": 2,
+    "maxPhotoLog": 1
+}

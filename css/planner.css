@@ -1,0 +1,146 @@
+html {
+    font-size: calc(1.1vw + .5em);
+    background: url(../photos/20161015_140826.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5em;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+#weather {
+    width: 99.8%;
+    height: 300px;
+    display: flex;
+    flex-direction: column
+}
+
+#weatherTitles {
+    width: 99.8%;
+    height: 120px;
+    flex-direction: row;
+    display: flex;
+}
+
+#currentTitle {
+    width: 25%;
+    height: 120px;
+    display: flex;
+}
+
+.forecastTitle {
+    width: 25%;
+    height: 120px;
+    text-align: center;
+    display: flex;
+}
+
+#weatherContent {
+    width: 99.8%;
+    height: 170px;
+    flex-direction: row;
+    display: flex;
+}
+
+#currentContent {
+    width: 25%;
+    flex-direction: row;
+}
+
+.forecastContent {
+    width: 25%;
+    flex-direction: row;
+}
+
+.contentLabels {
+    padding-top: 0.75rem;
+    padding-left: 3.5rem;
+    width: 35%;
+    display: inline-block;
+}
+
+.contentItems {
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    display: inline-block;
+}
+
+#bottom {
+    width: 99.9%;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+#left {
+    width: 55%;
+    margin-right: 10px;
+    float: left;
+}
+
+#right {
+    width: 44%;
+    /*background-color: #EDEDED;*/
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+#wotdTitle {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#word {
+    font-size: 1.5rem;
+}
+
+#pronounce {
+    font-size: 1rem;
+}
+
+#pos {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#defs {
+    font-size: .8rem;
+}
+
+#events {
+    width: 60%;
+    justify-content: center;
+}

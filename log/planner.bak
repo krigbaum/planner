@@ -1,0 +1,43 @@
+Sunday, 05-Aug-18 09:52:51 EDT  INFO: Initial Weather() Load
+Sunday, 05-Aug-18 09:53:01 EDT  INFO: Calling startWOTD()
+Sunday, 05-Aug-18 09:53:01 EDT  INFO: Initial WOTD() Load
+Sunday, 05-Aug-18 09:53:11 EDT  INFO: Calling startPhotos()
+Sunday, 05-Aug-18 09:53:11 EDT  INFO: Initial Photos() Load
+Sunday, 05-Aug-18 09:53:21 EDT  INFO: Initial Calendar() Load
+Sunday, 05-Aug-18 09:58:11 EDT  INFO: Periodic Photos() Load
+Sunday, 05-Aug-18 09:59:32 EDT  INFO: Starting Planner Application.
+Sunday, 05-Aug-18 09:59:32 EDT  INFO: Loading Configuration from json/config.json.
+
+                Debug: true
+           darkSkyKey: 17a2013be8c8b9f5c086af117f2e57f7
+             latitude: 40.47780682531368
+            longitude: -86.93875375799722
+             excludes: exclude=minutely,hourly,flags
+           weatherURL: https://api.darksky.net/forecast/
+weatherReloadInterval: 1 Hr.
+              qotdURL: https://www.quotesdaddy.com/feed
+   qotdReloadInterval: 4 Hr.
+              wotdURL: https://www.merriam-webster.com/word-of-the-day
+   wotdReloadInterval: 12 Hr.
+            photosDir: ./photos
+         cssDirectory: ./css/planner.css
+  photoReloadInterval: 5 Min.
+    timeCheckInterval: 3 Sec.
+             HTMLFile: planner.html
+                mwRSS: https://www.merriam-webster.com/wotd/feed/rss2
+                mwURL: https://www.dictionaryapi.com/api/v1/references/collegiate/xml/
+                mwKEY: 6becb26a-c8cc-4b72-813f-55849be7b7a5
+        maxPlannerLog: 1 M.
+        maxWeatherLog: 2 M.
+           maxWOTDLog: 2 M.
+          maxPhotoLog: 1 M.
+
+Sunday, 05-Aug-18 09:59:32 EDT  INFO: Calling startWeather()
+Sunday, 05-Aug-18 09:59:32 EDT  INFO: Initial Weather() Load
+Sunday, 05-Aug-18 09:59:42 EDT  INFO: Calling startWOTD()
+Sunday, 05-Aug-18 09:59:42 EDT  INFO: Initial WOTD() Load
+Sunday, 05-Aug-18 09:59:52 EDT  INFO: Calling startPhotos()
+Sunday, 05-Aug-18 09:59:52 EDT  INFO: Initial Photos() Load
+Sunday, 05-Aug-18 10:00:02 EDT  INFO: Initial Calendar() Load
+Sunday, 05-Aug-18 10:04:53 EDT  INFO: Periodic Photos() Load
+Sunday, 05-Aug-18 10:09:52 EDT  INFO: Periodic Photos() Load

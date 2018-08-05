@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Family Planner</title>
+    <meta http-equiv="refresh" content="60" />
+    <link rel="stylesheet" type="text/css" href="css/planner.css">
+    <script src="js/planner.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Ubuntu+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <h1><span id="date">DATE</span>&nbsp;/&nbsp;<span id="time">TIME</span></h1>
+    <script>
+        getDate()
+    </script>
+    <script>
+        getTime()
+    </script>
+    <script>
+        refreshFromHTML()
+    </script>
+
+    <div id="weather">
+        <div id="weatherTitles">
+            <div id="currentTitle">
+                <h2>Current<br>Conditions</h2>
+            </div>
+            <div class="forecastTitle">
+                <h2><span id="day1">Sunday<!--d1--></span></h2>
+            </div>
+            <div class="forecastTitle">
+                <h2><span id="day2">Monday<!--d2--></span></h2>
+            </div>
+            <div class="forecastTitle">
+                <h2><span id="day3">Tuesday<!--d3--></span></h2>
+            </div>
+        </div>
+        <div id="weatherContent">
+            <div id="currentContent">
+                <div class="contentLabels">
+                    Temperature:
+                    <br> Humidity:
+                    <br> Winds:
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="currentTemp">80 &#8457;</span>
+                    <br> <span id="currentHumidity">75 %</span>
+                    <br> <span id="currentWindSpeed">5 mph</span>
+                    <br> <span id="currentVisibility">10 mi.</span>
+                </div>
+            </div>
+            <div class="forecastContent">
+                <div class="contentLabels">
+                    Low:
+                    <br> High:
+                    <br> Humidity:
+                    <br> Winds:
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="lowTemp1">70 &#8457;<!--1--></span>
+                    <br> <span id="highTemp1">90 &#8457;<!--2--></span>
+                    <br> <span id="humidity1">74 %<!--1--></span>
+                    <br> <span id="windspeed1">6 mph<!--1--></span>
+                    <br> <span id="visibility1">10 mi.<!--1--></span>
+                </div>
+            </div>
+            <div class="forecastContent">
+                <div class="contentLabels">
+                    Low:
+                    <br> High:
+                    <br> Humidity:
+                    <br> Winds:
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="lowTemp2">71 &#8457;<!--3--></span>
+                    <br> <span id="highTemp2">88 &#8457;<!--4--></span>
+                    <br> <span id="humidity2">80 %<!--2--></span>
+                    <br> <span id="windspeed2">9 mph<!--2--></span>
+                    <br> <span id="visibility2">10 mi.<!--2--></span>
+                </div>
+            </div>
+            <div class="forecastContent">
+                <div class="contentLabels">
+                    Low:
+                    <br> High:
+                    <br> Humidity:
+                    <br> Winds:;
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="lowTemp3">64 &#8457;<!--5--></span>
+                    <br> <span id="highTemp3">83 &#8457;<!--6--></span>
+                    <br> <span id="humidity3">87 %<!--3--></span>
+                    <br> <span id="windspeed3">4 mph<!--3--></span>
+                    <br> <span id="visibility3">10 mi.<!--3--></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id=bottom>
+        <div id="left">
+
+            <h2><span id="wotd">Word of the Day</span></h2>
+            <div id="wotdTitle">
+                <span id="word">bereave:&nbsp;<!--w1--></span>
+                <span id="pronounce">[&nbsp;&nbsp;bi-ˈrēv, bē-&nbsp;]<!--w2--></span>
+                <span id="pos">&nbsp;verb<!--w3--></span><br><br>
+            </div>
+            <span id="defs">&nbsp;&nbsp;&nbsp;Definition 1) &nbsp; or robbed of the possession or use of something <br>&nbsp;&nbsp;&nbsp;Definition 2) &nbsp;lacking something needed, wanted, or expected <br>&nbsp;&nbsp;&nbsp;Definition 3) &nbsp;suffering the death of a loved one  <br>&nbsp;&nbsp;&nbsp;Definition 4) &nbsp;to deprive of something <br>&nbsp;&nbsp;&nbsp;Definition 5) &nbsp;to take away (a valued or necessary possession) especially by force<br><!--w4--></span>
+        </div>
+        <div id="right">
+            <!-- <iframe src="https://calendar.google.com/calendar/embed?src=lekrigbaum%40gmail.com&ctz=America/New_York " style="border: 0 " width="869" height="465"></iframe> -->
+            <div id="events">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <span><li id="item1">Dr Oates (Tuesday Aug 7 at 8:40am)<!-- e1 --></li></span>
+                    <span><li id="item2">Elizabeth's Birthday (Wed Aug 8)<!-- e2 --></li></span>
+                    <span><li id="item3">Jan Yates' Birthday (Thu Aug 9)<!-- e3 --></li></span>
+                    <span><li id="item4">Alpline Clinic (Thursday Aug 9 at 8:15am)<!-- e4 --></li></span>
+                    <span><li id="item5">First Day BGMS (Tue Aug 14)<!-- e5 --></li></span>
+                    <span><li id="item6">Mason's Birthday (Tue Aug 14)<!-- e6 --></li></span>
+                    <span><li id="item7">Gastro - Heather Renolds (Monday Aug 20 at 2:00pm)<!-- e7 --></li></span>
+                    <span><li id="item8">Phyllis Schulte's Birthday (Sun Aug 26)<!-- e8 --></li></span>
+                    <span><li id="item9">Dr Hendrick (Friday Aug 31 at 3:10pm)<!-- e9 --></li></span>
+                    <span><li id="item10">Labor Day (Mon Sep 3)<!-- e10 --></li></span>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
