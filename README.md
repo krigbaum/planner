@@ -28,3 +28,13 @@ JSON | Comments
 **"mwRSS":** *"https://www.merriam-webster.com/wotd/feed/rss2",* | Merriam-Webster Word of the Day URL.
 **"mwURL":** *"https://www.dictionaryapi.com/api/v1/references/collegiate/xml/",* | Merriam-Webster Collegiate Dictionary URL
 **"mwKEY":** *""* | The key issued to you by Merriam-Webster for use of their API.
+
+
+/home/pi/.config/lxsession/LXDE-pi/autostart:
+
+#@xscreensaver -no-splash  # comment this line out to disable screensaver
+@xset s off
+@xset -dpms
+@xset s noblank
+# load chromium after boot and point to the localhost webserver in full screen mode
+@chromium-browser --incognito --kiosk file:///home/pi/planner/planner.html
