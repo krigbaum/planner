@@ -42,13 +42,12 @@ Edit **/home/pi/.config/lxsession/LXDE-pi/autostart** so the only lines it conta
 
 
 To start the planner program on startup:
-
 There are a lot of ways of doing this, so use whatever suits you.
 As the "pi" user, edit the crontab file as follows:
 
-**crontab -e**
-
-
-Go to the end of the file and enter the following on its own line:
-
+**crontab -e**</br>
+</br>
+</br>
+Go to the end of the file and enter the following on its own line:</br>
+</br>
 **@reboot /home/pi/planner.planner &**
