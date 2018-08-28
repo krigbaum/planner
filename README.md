@@ -40,6 +40,7 @@ Edit **/home/pi/.config/lxsession/LXDE-pi/autostart** so the only lines it conta
 @chromium-browser --incognito --kiosk file:///home/pi/planner/planner.html</br>
 
 
+
 To start the planner program on startup:
 
 There are a lot of ways of doing this, so use whatever suits you.
