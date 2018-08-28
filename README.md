@@ -38,9 +38,9 @@ Edit **/home/pi/.config/lxsession/LXDE-pi/autostart** so the only lines it conta
 @xset s noblank</br>
 @xset s noexpose</br>
 @chromium-browser --incognito --kiosk file:///home/pi/planner/planner.html</br>
-
-
-
+</br>
+</br>
+</br>
 To start the planner program on startup:
 There are a lot of ways of doing this, so use whatever suits you.
 As the "pi" user, edit the crontab file as follows:
