@@ -33,7 +33,9 @@ JSON | Comments
 Edit **/home/pi/.config/lxsession/LXDE-pi/autostart** so the only lines it contains are:
 
 #@xscreensaver -no-splash # comment this line out to disable screensaver</br>
-@xset s off</br>
-@xset -dpms</br>
+@xset s 0 0</br>
+@xset dpms 0 0 0</br>
 @xset s noblank</br>
+@xset s noexpose</br>
 @chromium-browser --incognito --kiosk file:///home/pi/planner/planner.html</br>
+
