@@ -30,11 +30,14 @@ JSON | Comments
 **"mwKEY":** *""* | The key issued to you by Merriam-Webster for use of their API.
 
 
-/home/pi/.config/lxsession/LXDE-pi/autostart:
+Edit **/home/pi/.config/lxsession/LXDE-pi/autostart**
 
-#@xscreensaver -no-splash  # comment this line out to disable screensaver
-@xset s off
-@xset -dpms
+#@xscreensaver -no-splash # comment this line out to disable screensaver 
+
+@xset s off 
+
+@xset -dpms 
+
 @xset s noblank
-# load chromium after boot and point to the localhost webserver in full screen mode
+
 @chromium-browser --incognito --kiosk file:///home/pi/planner/planner.html
