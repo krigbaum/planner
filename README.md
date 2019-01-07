@@ -4,6 +4,13 @@ Planner is a Go application designed to run on a Raspberry Pi in a wall display 
 ## A note concerning background photos:
 The most effective photos to chose for use a backgrounds in the Planner are ones that are oriented in the same direction as your display screen.  The display prints in white so photos with a contrasting background are most effective.
 
+## Go Requirements:
+Connecting to Google Calender has some special requirements.  Execute the following three commands to obtain the needed packages:
+
+go get golang.org/x/oauth2
+go get cloud.google.com/go/compute/metadata
+go get google.golang.org/api/calendar/v3
+
 ## config.json
 json is an easy format for computers to read data.  Small errors can break it, however, so before editing backup the json file and refer to an introductory json syntax reference.  Also, **ALL** lines in the file must remain in place or the planner will break.
 
